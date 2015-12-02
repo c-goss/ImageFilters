@@ -249,6 +249,7 @@ public class ImageViewer
         filterList.add(new InvertFilter("Invert"));
         filterList.add(new SolarizeFilter("Solarize"));
         filterList.add(new SmoothFilter("Smooth"));
+        filterList.add(new EdgeDetectionFilter("Edge Detection"));
        
         return filterList;
     }
