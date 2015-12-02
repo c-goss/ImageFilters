@@ -247,6 +247,7 @@ public class ImageViewer
         filterList.add(new GrayscaleFilter("Grayscale"));
         filterList.add(new MirrorFilter("Mirror"));
         filterList.add(new InvertFilter("Invert"));
+        filterList.add(new SolarizeFilter("Solarize"));
        
         return filterList;
     }
